@@ -8,6 +8,12 @@ public class Laptop {
 
 	@Id
 	String lId;
+
+	@Override
+	public String toString() {
+		return "Laptop [lId=" + lId + ", lName=" + lName + "]";
+	}
+
 	String lName;
 
 	public String getlId() {
