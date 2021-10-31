@@ -10,16 +10,16 @@ public class App {
 	public static void main(String args[]) {
 
 		Properties prop = new Properties();
-		prop.setAlienBreedType("Cat");
-		prop.setAlienFoodType("Fancy Feast");
-		prop.setAlienNature("Cozyyy");
+		prop.setAlienBreedType("Zod");
+		prop.setAlienFoodType("McDonalds");
+		prop.setAlienNature("Aggressive");
 
 		Alien aline = new Alien();
 
 		// Use the following lines only to add the values to DB
-		aline.setaID("104");
-		aline.setaName("Toby");
-		aline.setsColor("Black");
+		aline.setaID("101");
+		aline.setaName("Gourav");
+		aline.setsColor("Brown");
 		aline.setaProperties(prop);
 
 		Configuration configuration = new Configuration().configure().addAnnotatedClass(Alien.class);
